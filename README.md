@@ -7,14 +7,14 @@ The application includes product categories, authentication, cart functionality,
 ---
 
 ## 🚀 Features
-*🔐 User Authentication (Login / Signup)
-*🐶 Browse Different Pet Categories
-*🛒 Shopping Cart Functionality
-*💳 Checkout / Payment Page
-*📦 Dynamic Product Pages
-*📱 Responsive User Interface
-*🖼️ Static Media & Image Handling
-*⚡ Django Template Rendering
+* 🔐 User Authentication (Login / Signup)
+* 🐶 Browse Different Pet Categories
+* 🛒 Shopping Cart Functionality
+* 💳 Checkout / Payment Page
+* 📦 Dynamic Product Pages
+* 📱 Responsive User Interface
+* 🖼️ Static Media & Image Handling
+* ⚡ Django Template Rendering
 
 ---
 
