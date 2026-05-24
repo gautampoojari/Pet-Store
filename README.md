@@ -120,40 +120,36 @@ http://127.0.0.1:8000/
 
 ## 📸 Screenshots
 
-### 🔐 Login / Signup
+### 🏠 Home Page
 
-<img width="1333" height="568" alt="Screenshot 2026-01-03 010947" src="https://github.com/user-attachments/assets/5d9f76aa-6335-4148-a90a-4c66cad74e48" />
+<img  alt="Screenshot 2026-01-03 010947" src="https://github.com/user-attachments/assets/885773f0-e3b9-4118-a59b-57acac5a98fa" />
 
-### 👤 Profile Creation
+### 🐕 Product Page
 
-<img width="692" height="524" alt="Screenshot 2026-01-03 011233" src="https://github.com/user-attachments/assets/f0c238c3-5968-4c18-95ee-8b57ea75b400" />
-
-
-### 🧭 Life Path Selection
-
-<img width="672" height="497" alt="Screenshot 2026-01-03 011303" src="https://github.com/user-attachments/assets/141328d9-90b0-42bf-898f-82c7dea25944" />
+<img  alt="Screenshot 2026-01-03 011233" src="https://github.com/user-attachments/assets/2893ed45-b1ba-40ea-9f5c-e2de6b2e915f" />
 
 
-### 📊 Prediction Result (Charts + Scores)
+### 🛒 Cart Page
 
-<img width="452" height="403" alt="Screenshot 2026-01-03 011328" src="https://github.com/user-attachments/assets/939766e9-cb40-475c-9b24-10abc83ac601" />
-
-
-### 📖 Generated Story
-
-<img width="324" height="241" alt="Screenshot 2026-01-03 011348" src="https://github.com/user-attachments/assets/f1f3566a-91e8-4dd9-83b5-ea2db4921073" />
+<img alt="Screenshot 2026-01-03 011303" src="https://github.com/user-attachments/assets/c805b253-68de-461f-bc63-1b02ba99fb75" />
 
 
-### 🕓 History Dashboard
+### 🔐 Signup
 
-<img width="454" height="503" alt="Screenshot 2026-01-03 011358" src="https://github.com/user-attachments/assets/e88a1316-f054-49b9-bece-7fbcea144d11" />
+<img  alt="Screenshot 2026-01-03 011328" src="https://github.com/user-attachments/assets/493801d5-e0d9-4838-b481-fcd29fa80337" />
+
+
+### 💳 Checkout Page
+
+<img alt="Screenshot 2026-01-03 011348" src="https://github.com/user-attachments/assets/2b726069-9253-42cb-9bf9-9c6d99096cc7" />
+
 
 ---
 
 ## 💡 Future Improvements
 
 * Admin dashboard improvements
-* Product search and filters
+* Improve and Update the UI
 * PostgreSQL database integration
 * Deployment on cloud platforms
 * Wishlist functionality
