@@ -1,0 +1,67 @@
+
+{% extends 'base.html'%} 
+
+{% block content %}
+
+{% include 'nav.html' %}
+
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+</head>
+<body>
+<div class="d-flex justify-content-center container">
+<div class="container">
+<div class="">
+<div class="" style="max-width: 300px;">
+	<!-- Category -->
+	<div class="single category">
+		<h3 class="side-title">Category</h3>
+		<ul class="list-unstyled">
+			{% for category in categories %}
+			<li>
+				<a href="{% url 'category' category.id %}" title="">{{category.name}}<span class="pull-right">{{ category.product_count }}</span></a>
+			</li>
+			{% endfor %}
+		</ul>
+   </div>
+</div> 
+</div>
+</div>
+</body>
+</html>
+<section class="py-5" style="max-width: 1000px;">
+	<div class="">
+		<div class="row row-cols-xl-2 justify-content-center">
+
+			{% for product in products %}
+
+			<div class="col mb-5">
+				<div class="card h-100">
+					<!-- Product image-->
+					<img class="card-img-top" src="{{product.image.url}}" alt="..." />
+					<!-- Product details-->
+					<div class="card-body p-4">
+						<div class="text-center">
+							<!-- Product name-->
+							<h5 class="fw-bolder">{{product.name}}</h5>
+							<!-- Product price-->
+							{{product.price}}
+						</div>
+					</div>
+					<!-- Product actions-->
+					<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+						<div class="text-center"><a class="btn btn-outline-dark mt-auto" href="{% url 'product' product.id %}">View Detail</a></div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+</div>
+{% endblock %}
